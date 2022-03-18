@@ -4,16 +4,20 @@ describe 'A box' do
 
   describe 'attributes' do
     it 'has tiles' do
-      skip
+      # box = Box.new
+      # expect(box.tiles).to_not be_nil
+      # expect(box.).to_not be_nil
     end
   end
 
   describe 'creation' do
     context 'by default' do
       it 'will initialize an array of tiles' do
-        skip
+        # box = Box.new
+        # expect(box).to eq(box.tiles) 
       end
     end
+
     context 'with a specific array of tiles' do
       it 'will retain the tiles passed its constructor' do
         skip
