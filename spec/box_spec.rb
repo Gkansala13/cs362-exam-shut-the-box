@@ -4,30 +4,30 @@ describe 'A box' do
 
   describe 'attributes' do
     it 'has tiles' do
-      # box = Box.new
-      # expect(box.tiles).to_not be_nil
-      # expect(box.).to_not be_nil
+      box = Box.new
+      expect(box).to respond_to(:tiles)
     end
   end
 
   describe 'creation' do
     context 'by default' do
       it 'will initialize an array of tiles' do
-        # box = Box.new
-        # expect(box).to eq(box.tiles) 
+        box = Box.new
+        expect(box).to_not be_nil 
       end
     end
 
     context 'with a specific array of tiles' do
       it 'will retain the tiles passed its constructor' do
-        skip
+        # box = Box.new(1)
+        # expect(box).to include(*box.tiles) 
       end
     end
   end
 
   describe '#tiles_remaining?' do
     it 'returns true when at least one tile is up' do
-      skip
+      
     end
     it 'returns false when none of the tiles are up' do
       skip
